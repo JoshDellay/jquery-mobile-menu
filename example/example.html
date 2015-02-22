@@ -1,0 +1,27 @@
+<head>
+  <title>jQuery Mobile Menu example for Meteor.js by Josh Dellay.</title>
+</head>
+
+<body>
+    <div>
+        <h1>jQuery Mobile Menu example for Meteor.js.</h1>
+        {{> example}}      
+        {{> menu}}
+    </div>
+</body>
+
+<template name="example">
+  <button id="open">Open Menu!</button>
+  <button id="close">Close Menu!</button>
+</template>
+
+<template name="menu">
+    <!-- Start of menu --> 
+    <nav id="my-menu">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About us</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+</template>
