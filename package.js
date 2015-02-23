@@ -1,6 +1,6 @@
 Package.describe({
   name: 'joshdellay:jquery-mobile-menu',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'A jQuery plugin for app look-alike on- and off-canvas menus.',
   // URL to the Git repository containing the source code for this package.
