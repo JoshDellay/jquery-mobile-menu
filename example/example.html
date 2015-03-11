@@ -3,11 +3,7 @@
 </head>
 
 <body>
-    <div>
-        <h1>jQuery Mobile Menu example for Meteor.js.</h1>
-        {{> example}}      
-        {{> menu}}
-    </div>
+  {{> menu}}
 </body>
 
 <template name="example">
@@ -16,6 +12,22 @@
 </template>
 
 <template name="menu">
+  <div id="page">
+    <div class="header fixed">
+      <a href="#my-menu"></a>
+      jQuery Mobile Menu example
+    </div>
+    <div class="content">
+      <h1>jQuery Mobile Menu example for Meteor.js.</h1> 
+      <p><strong>This is a demo.</strong><br />
+          Click the menu icon to open the menu.</p>
+<!--      <p>For more demos, a tutorial, documentation and support, please visit <a href="http://mmenu.frebsite.nl" target="_blank">mmenu.frebsite.nl</a></p>			-->
+      {{> example}}     
+    </div>
+    <div class="footer fixed">
+      Running on Meteor
+    </div>
+    
     <!-- Start of menu --> 
     <nav id="my-menu">
         <ul>
@@ -24,4 +36,5 @@
             <li><a href="/contact/">Contact</a></li>
         </ul>
     </nav>
+  </div>
 </template>
